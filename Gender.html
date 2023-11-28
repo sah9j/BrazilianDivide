@@ -12,6 +12,11 @@
 	<!-- <script src="js/modernizr.js"></script> --> <!-- Modernizr -->
   	
 	<title>Gender Inequality</title>
+	<style>
+		p, h3 {
+			visibility: hidden;
+		}
+	</style>
 </head>
 <body>
 	<header>
@@ -88,10 +93,14 @@
 <script>
 	$(document).ready(function(){
 		// Select paragraphs and animate them when the page loads
-		$('p').each(function(index) {
-			$(this).delay(300 * index).slideDown(800);
+		$('h3, p').each(function(index) {
+			$(this).delay(300 * index).queue(function(next) {
+				$(this).css('visibility', 'visible').hide().fadeIn(800);
+				next();
+			});
 		});
 	});
+		
 </script>
 <script src="js/main.js"></script> <!-- Resource jQuery -->
 
