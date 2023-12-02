@@ -1,18 +1,18 @@
 .banner {
-    background-image: url('../img/Brazil.png');
+  background-image: url('../img/genderbanner.jpeg');
 }
 
 p {
-	position: relative;
-	top: 100;
-	left: 0;
-  text-align: center;
-  font-size: 20px;
-  margin: 50px 10px 50px 0px;
+position: relative;
+top: 100;
+left: 0;
+text-align: center;
+font-size: 20px;
+margin: 50px 10px 50px 0px;
 }
 
 h3 {
-  font-size: 40px;
-  text-align: center;
-  margin: 10px 20px 0px 0px;
+font-size: 40px;
+text-align: center;
+margin: 10px 20px 0px 0px;
 }
