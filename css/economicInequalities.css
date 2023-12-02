@@ -6,6 +6,10 @@ body {
 	/* text-align: center; */
 }
 
+.banner {
+	background-image: url("../img/");
+}
+
 h3 {
 	font-size: 40px;
 	text-align: center;
@@ -28,3 +32,7 @@ p {
 	margin-top: 20px;
 	width: auto;
   }
+
+  a {
+	color: rgb(28, 53, 53);
+}
