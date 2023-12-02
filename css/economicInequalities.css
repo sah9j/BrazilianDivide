@@ -7,7 +7,7 @@ body {
 }
 
 .banner {
-	background-image: url("../img/");
+	background-image: url("../img/Brazil.png");
 }
 
 h3 {
@@ -36,3 +36,9 @@ p {
   a {
 	color: rgb(28, 53, 53);
 }
+
+.footer {
+	margin-top: 50px;
+	background-color: rgb(1, 1, 39);
+	color: white;
+  }
